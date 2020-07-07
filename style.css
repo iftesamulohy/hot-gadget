@@ -1,0 +1,42 @@
+section{
+    margin-bottom: 100px;
+}
+.buy-now{
+    border: none;
+    background-color: black;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.buy-now::after{
+    content: ' →';
+}
+.indec{
+
+ background-color: gray;
+}
+.carousel-indicators .active{
+    background-color: orange;
+    padding: 2px;
+    border-radius: 45%;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+.see{
+    color: #FF9E02;
+}
+.box{
+    padding: 20px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 5px 5px 10px lightgray;  
+}
+.underline{
+    margin-top: 0;
+    margin-bottom: 30px;
+    height: 5px;
+    width: 70px;
+    background-image: linear-gradient(to right,#FFC61E 0%,#FF9C35);
+}
